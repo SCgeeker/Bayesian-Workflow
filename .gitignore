@@ -163,3 +163,8 @@ world_cup/worldcup_sqrt_continuous_nojacobian
 # Book PDFs
 Bayesian_Workflow_book.pdf
 Bayesian_Workflow_book_gray.pdf
+
+# 個人練習：忽略 practice/ 下無副檔名的檔案（cmdstanr 編譯出的模型執行檔）
+practice/**
+!practice/**/
+!practice/**/*.*
